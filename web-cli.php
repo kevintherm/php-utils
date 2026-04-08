@@ -4,7 +4,7 @@
  * A standalone script for remote command execution.
  */
 
-$TIMEOUT_SECONDS = 30; // Maximum time a command is allowed to run.
+$TIMEOUT_SECONDS = 120; // Maximum time a command is allowed to run.
 
 if (isset($_POST['cmd'])) {
     $cmd = $_POST['cmd'];
